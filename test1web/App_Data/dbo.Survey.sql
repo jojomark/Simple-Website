@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Survey]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY (1,1),
+	[uName] NVARCHAR (50) NOT NULL,
+	[vote] INT NOT NULL,
+
+)
